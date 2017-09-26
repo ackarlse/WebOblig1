@@ -14,6 +14,7 @@ body{
 text-decoration: none;
 margin-right: 9%;
 text-transform: uppercase;
+color: black;
 
 }
 
@@ -61,7 +62,9 @@ box-sizing: border-box;
 .logo{
 
 	float: left;
-	font-family: 'Megrim', cursive;
+font-family: 'Megrim', cursive;
+font-size: 52px;
+margin-top: 0px !important;
 }
 
 .nav-bare{
