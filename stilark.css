@@ -63,8 +63,8 @@ box-sizing: border-box;
 .logo{
 
 	float: left;
-font-family: 'Megrim', cursive;
-font-size: 52px;
+font-family: 'Reem Kufi', sans-serif;
+font-size: 44px;
 margin-top: 0px !important;
 }
 
@@ -110,12 +110,14 @@ padding-top: 1%;
 
 section{
 
-	max-width: 900px;
+max-width: 900px;
 width: 100%;
-display: block;
+display: flex;
 box-sizing: border-box;
 margin: auto;
 height: 600px;
+flex-wrap: wrap;
+justify-content: space-between;
 }
 
 .about_tittle{
@@ -131,16 +133,16 @@ max-width: 900px;
 
 article{
 
-	width: 40%;
-display: block;
+width: 41%;
+display: flex;
 float: left;
 text-align: center;
 padding: 4%;
-margin: 1%;
 background-color: turquoise;
 height: 200px;
 background-image: url(article_img.jpg);
 background-size: cover;
+flex-wrap: wrap;
 
 
 
@@ -149,7 +151,7 @@ background-size: cover;
 .article_header{
 
 	position: relative;
-	top: 33%;
+	top: 2%;
 	background-color: rgba(255, 255, 255, 0.70);
 	padding: 3%;
 }
