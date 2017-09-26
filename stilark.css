@@ -166,8 +166,7 @@ flex-wrap: wrap;
 
 h3{
 
-	/*font-family: 'Amatic SC', cursive;*/
-	font-family: 'Reem Kufi', sans-serif;
+	font-weight: 100;
 }
 
 .footer-top{
@@ -181,9 +180,34 @@ padding: 20px;
 
     color: white;
     text-decoration: none;
+    margin-right: 5%;
 }
 
 .footer-bottom{
 
-	padding: 1%;
+	padding: 20px;
+}
+
+.logo_footer{
+
+	float: right;
+	font-size: 100px;
+	color: white;
+}
+
+.footer-text{
+
+	width: 23%;
+display: block;
+margin: auto 11px;
+float: left;
+}
+
+.footer-text p{
+	font-size: 15px;
+}
+
+.footer-info{
+	max-width: 700px;
+display: block;
 }
