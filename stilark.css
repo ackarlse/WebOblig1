@@ -84,7 +84,7 @@ box-sizing: border-box;
 
 	text-align: center;
 	height: 400px;
-	background-image: url(web/header_iamg.jpg);
+	background-image: url(header_iamg.jpg);
 	display: block;
 	margin: auto;
 	box-sizing: border-box;
@@ -135,7 +135,7 @@ padding: 4%;
 margin: 1%;
 background-color: turquoise;
 height: 200px;
-background-image: url(web/article_img.jpg);
+background-image: url(article_img.jpg);
 background-size: cover;
 
 
