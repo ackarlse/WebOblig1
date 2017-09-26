@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Slab');
 @import url('https://fonts.googleapis.com/css?family=Megrim');
 @import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Reem+Kufi');
 
 body{
 
@@ -164,7 +165,7 @@ background-size: cover;
 h3{
 
 	/*font-family: 'Amatic SC', cursive;*/
-	font-family: 'Josefin Slab', serif;
+	font-family: 'Reem Kufi', sans-serif;
 }
 
 .footer-top{
@@ -172,6 +173,12 @@ h3{
 height: 120px;
 border-bottom: 1px solid #dcdcde;
 padding: 20px;
+}
+
+.footer-top a{
+
+    color: white;
+    text-decoration: none;
 }
 
 .footer-bottom{
