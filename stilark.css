@@ -239,6 +239,7 @@ display: block;
 
 .aricles-text{
 	margin-bottom: 5%;
+	height: 100%;
 
 
 }
@@ -247,22 +248,24 @@ display: block;
 .a-text{
 
 width: 100%;
-background-color: teal;
+background-color: indianred;
 height: 100%;
+text-align: justify;
+justify-content: space-between;
 
 }
 
 
 .header_pic_aricle{
 
-	background-image: url(mal.jpg);
+background-image: url(mal.jpg);
 background-position: center;
 background-size: cover;
 }
 
 .article-tittle{
 
-	height: 175px;
+height: 175px;
 width: 100%;
 margin: auto;
 display: block;
@@ -282,7 +285,9 @@ margin-top: 7%;
 
 .eks{
 
-	flex: auto;
 background-color: white;
-margin: 1%;
+height: 150px;
+margin-bottom: 34px;
+flex-flow: wrap;
+width: 32%;
 }
