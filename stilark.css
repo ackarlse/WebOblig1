@@ -293,8 +293,33 @@ margin-top: 7%;
 .eks{
 
 background-color: white;
-height: 150px;
+
 margin-bottom: 34px;
 flex-flow: wrap;
-width: 32%;
+
+text-align: center;
 }
+
+.matheks{
+
+
+
+margin-bottom: 34px;
+flex-flow: wrap;
+
+text-align: center;
+}
+
+
+
+
+mrow{
+
+
+	padding:20px;
+	margin: 20%;
+	font-family: 'Raleway', sans-serif;
+	color: white;
+}
+
+
