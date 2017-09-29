@@ -255,7 +255,7 @@ display: block;
 .a-text{
 
 width: 100%;
-background-color: indianred;
+border: 1px solid #848282;
 height: 100%;
 text-align: justify;
 justify-content: space-between;
@@ -293,10 +293,9 @@ margin-top: 7%;
 .eks{
 
 background-color: white;
-
 margin-bottom: 34px;
 flex-flow: wrap;
-
+padding: 20px;
 text-align: center;
 }
 
@@ -319,7 +318,7 @@ mrow{
 	padding:20px;
 	margin: 20%;
 	font-family: 'Raleway', sans-serif;
-	color: white;
+	color: grey;
 }
 
 
