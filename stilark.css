@@ -27,7 +27,7 @@ color: black;
 
 footer{
 
-	 max-width: 900px;
+	 max-width: 1000px;
 width: 100%;
 height: 100%;
 background: #525151;
@@ -44,7 +44,7 @@ h2, h1{
 }
 		
 header{
-max-width: 900px;
+max-width: 1000px;
 width: 100%;
 margin: auto;
 display: block;
@@ -113,7 +113,7 @@ padding-top: 1%;
 
 section{
 
-max-width: 900px;
+max-width: 1000px;
 width: 100%;
 display: flex;
 box-sizing: border-box;
@@ -124,7 +124,7 @@ justify-content: space-between;
 }
 
 .about_tittle{
-max-width: 900px;
+max-width: 1000px;
 	width: 100%;
 	display: block;
 	box-sizing: border-box;
@@ -140,7 +140,7 @@ width: 41%;
 display: flex;
 float: left;
 text-align: center;
-padding: 4%;
+
 
 height: 200px;
 
@@ -154,22 +154,26 @@ flex-wrap: wrap;
 .math{
 
 	background-image: url(math.jpg);
+	padding: 4%;
 }
 
 .svg{
 
 	background-image: url(math.jpg);
+	padding: 4%;
 }
 
 
 .git{
 
 	background-image: url(gitpic.jpg);
+	padding: 4%;
 }
 
 .mal{
 
 	background-image: url(mal.jpg);
+	padding: 4%;
 }
 
 .article_header{
@@ -256,7 +260,7 @@ display: block;
 .a-text{
 
 width: 100%;
-border: 1px solid #848282;
+
 height: 100%;
 text-align: justify;
 justify-content: space-between;
@@ -298,6 +302,7 @@ margin-bottom: 34px;
 flex-flow: wrap;
 padding: 20px;
 text-align: center;
+width: 17%;
 }
 
 .matheks{
@@ -305,6 +310,7 @@ text-align: center;
 margin-bottom: 34px;
 flex-flow: wrap;
 text-align: center;
+width: 30%;
 }
 
 
@@ -313,7 +319,7 @@ text-align: center;
 margin-bottom: 34px;
 flex-flow: wrap;
 text-align: center;
-width: 30%;
+width: 33%;
 
 }
 
@@ -364,6 +370,34 @@ mrow{
 text-align: center;
 width: 18%;
 margin-top: 8%;
+}
+
+table{
+
+width: 100%;
+padding: 15px;
+margin-bottom: 25px;
+background-image: url(mal.jpg);
+background-size: cover;
+}
+
+tr:nth-child(2n+1) {
+	background-color: rgb( 255, 255, 255,0.7 );
+	color: black;
+}
+
+tr:nth-child(even) {
+	background-color: rgb( 52, 73, 94,0.5 );
+	color: white;
+}
+
+tr:first-child{
+
+	height: 58px;
+}
+
+tr{
+	height: 42px;
 }
 
 
