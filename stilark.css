@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css?family=Megrim');
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('https://fonts.googleapis.com/css?family=Reem+Kufi');
+@import url('https://fonts.googleapis.com/css?family=Raleway:100');
 
 body{
 
@@ -301,14 +302,20 @@ text-align: center;
 
 .matheks{
 
-
-
 margin-bottom: 34px;
 flex-flow: wrap;
-
 text-align: center;
 }
 
+
+.svg-eks{
+
+margin-bottom: 34px;
+flex-flow: wrap;
+text-align: center;
+width: 30%;
+
+}
 
 
 
@@ -319,6 +326,44 @@ mrow{
 	margin: 20%;
 	font-family: 'Raleway', sans-serif;
 	color: grey;
+}
+
+.shape {
+  fill: transparent;
+  stroke-dasharray: 123 365;
+  stroke-dashoffset: -358;
+  stroke-width: 2px;
+  stroke: black;
+  margin-top: 10%;
+
+}
+
+
+@keyframes draw {
+  0% {
+    stroke-dasharray: 123 365;
+    stroke-dashoffset: -358;
+    stroke-width: 8px;
+  }
+  100% {
+    stroke-dasharray: 760;
+    stroke-dashoffset: 0;
+    stroke-width: 2px;
+  }
+}
+
+.svg-wrapper:hover .shape {
+  -webkit-animation: 0.5s draw linear forwards;
+  animation: 0.5s draw linear forwards;
+}
+
+
+.button-text{
+
+	position: absolute;
+text-align: center;
+width: 18%;
+margin-top: 8%;
 }
 
 
