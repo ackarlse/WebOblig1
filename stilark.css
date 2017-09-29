@@ -174,9 +174,11 @@ flex-wrap: wrap;
 .article_header{
 
 	position: relative;
-	top: 2%;
 	background-color: rgba(255, 255, 255, 0.70);
-	padding: 3%;
+	padding: 10%;
+	width: 90%;
+	text-decoration: none;
+	color: black;
 }
 
 
@@ -184,7 +186,7 @@ flex-wrap: wrap;
 
 	color: white;
 	background-color: rgba(0, 0, 0, 0.70);
-	padding: 10%;
+
 }
 
 
@@ -236,6 +238,11 @@ float: left;
 display: block;
 }
 
+
+
+
+
+/*Under kommer css for artikkel sidene*/
 
 .aricles-text{
 	margin-bottom: 5%;
