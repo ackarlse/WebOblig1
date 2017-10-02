@@ -4,19 +4,39 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
 @import url('https://fonts.googleapis.com/css?family=Reem+Kufi');
 @import url('https://fonts.googleapis.com/css?family=Raleway:100');
+@import url('https://fonts.googleapis.com/css?family=Poiret+One');
+@import url('https://fonts.googleapis.com/css?family=Work+Sans:100');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100');
+
 
 body{
 
 	margin: 0px;
-	font-family: 'Raleway', sans-serif;
+font-family: 'Montserrat', sans-serif;
 	height: 100%;
+	font-weight: 100;
 }
+
+
+a:visited{
+
+	color: cadetblue;
+}
+
 
 .nav-item{
 text-decoration: none;
 margin-left: 12%;
 text-transform: uppercase;
-color: black;
+
+
+}
+
+.nav-item:visited{
+text-decoration: none;
+margin-left: 12%;
+text-transform: uppercase;
+color: cadetblue;
 
 }
 
@@ -41,6 +61,8 @@ color: white;
 h2, h1{
 
 	text-transform: uppercase;
+	font-weight: 100;
+	font-family: 'Reem Kufi', sans-serif;
 }
 		
 header{
@@ -140,12 +162,9 @@ width: 41%;
 display: flex;
 float: left;
 text-align: center;
-
-
-height: 200px;
-
 background-size: cover;
 flex-wrap: wrap;
+margin-bottom: 5%;
 
 
 
@@ -366,10 +385,10 @@ mrow{
 
 .button-text{
 
-	position: absolute;
+position: absolute;
 text-align: center;
-width: 18%;
-margin-top: 8%;
+width: 23%;
+margin-top: 10%;
 }
 
 table{
@@ -401,3 +420,21 @@ tr{
 }
 
 
+.kalender{
+
+	height: 100%;
+}
+
+
+
+.ingress{
+
+	font-weight: 700;
+	
+}
+
+.aricles 
+{
+
+	margin-bottom: 4%;
+}
