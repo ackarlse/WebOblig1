@@ -7,7 +7,83 @@
 	<link href="https://fonts.googleapis.com/css?family=Indie+Flower|Raleway" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="stilark.css">
 	<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+<style>
+	
 
+ul {list-style-type: none;}
+
+
+.month {
+padding: 33px;
+width: 100%;
+background: cadetblue;
+box-sizing: border-box;
+height: 316px;
+}
+
+.month ul {
+    margin: 0;
+    padding: 0;
+}
+
+.month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+
+
+.weekdays {
+    margin: 0;
+    padding: 10px 0;
+    background-color: #ddd;
+}
+
+.weekdays li {
+    display: inline-block;
+    width: 13.6%;
+    color: #666;
+    text-align: center;
+}
+
+.days {
+    padding: 10px 0;
+    background: #eee;
+    margin: 0;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size:12px;
+    color: #777;
+}
+
+.days li .active {
+    padding: 5px;
+    background: #1abc9c;
+    color: white !important
+}
+
+/* Add media queries for smaller screens */
+@media screen and (max-width:720px) {
+    .weekdays li, .days li {width: 13.1%;}
+}
+
+@media screen and (max-width: 420px) {
+    .weekdays li, .days li {width: 12.5%;}
+    .days li .active {padding: 2px;}
+}
+
+@media screen and (max-width: 290px) {
+    .weekdays li, .days li {width: 12.2%;}
+}
+</style>
 
 
 </head>
@@ -24,8 +100,8 @@
 <div class="topp-banner">
 	<div class="logo">LOGO</div> 
 	<nav class="nav-bare">
-	<a class="nav-item" href="oppgave1.html">Github</a>
-	<a class="nav-item" href="oppgave2.html">Om denne siden</a>
+	<a class="nav-item" href="git.html">Github</a>
+	<a class="nav-item" href="omsiden.html">Om denne siden</a>
 	</nav>
 </div>
 	<div class="header_pic">
@@ -37,6 +113,63 @@
 	</div>
 
 </header>
+
+
+<section class="kalender">
+
+<div class="month">      
+  <ul class="left">
+    <li>
+      FORELESNINGER<br>
+      <span style="font-size:18px">2017</span>
+    </li>
+  </ul>
+
+  <ul class="right">
+    <li>Oblig 1<br>
+     <span style="font-size:12px">Onsdag 11.11.11</span>
+    </li>
+     <li>Oblig 2<br>
+     <span style="font-size:12px">Onsdag 11.11.11</span>
+    </li>
+     <li>Oblig 3<br>
+     <span style="font-size:12px">Onsdag 11.11.11</span>
+    </li>
+     <li>Oblig 4<br>
+     <span style="font-size:12px">Onsdag 11.11.11</span>
+    </li>
+     <li>Oblig 5<br>
+     <span style="font-size:12px">Onsdag 11.11.11</span>
+    </li>
+  </ul>
+
+</div>
+
+<ul class="weekdays">
+  <li>Ma</li>
+  <li>Ti</li>
+  <li>On</li>
+  <li>To</li>
+  <li>Fr</li>
+  <li>Lø</li>
+  <li>Sø</li>
+</ul>
+
+<ul class="days">  
+  <li>Øvningstimer<br/>08:15 - 12:00 <br/>Infprog<br/>12:15 - 14:00<br/>Webutvikling<br/>14:15 - 16:00</li>
+  
+  <li>Infprog<br/>08:15 - 10:00 <br/>Øvningstimer<br/>10:15 - 15:00</li>
+  
+  <li>Øvningstimer<br/>08:15 - 12:00 <br/>Webutvikling<br/>12:15 - 14:00<br/>Infprog<br/>14:15 - 16:00</li>
+ 
+ <li>Øvningstimer<br/>08:15 - 10:00 <br/>Infprog<br/>10:15 - 12:00<br/>Øvningstimer<br/>12:00 - 16:00</li>
+
+ <li>Webutvikling<br/>09:15 - 11:00 <br/>Infprog<br/>11:15 - 16:00</li>
+  <li>FRI</li>
+  <li>FRI</li>
+</ul>
+
+</section>
 <div class="about_tittle">
 <h2>Artikkler</h2>
 </div>
